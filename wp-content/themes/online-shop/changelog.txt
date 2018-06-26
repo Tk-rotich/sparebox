@@ -1,0 +1,64 @@
+== Change log ==
+
+= 1.3.2 =
+* Fixed : select2 js fixed
+
+= 1.3.1 =
+* Fixed : Some minor CSS
+
+= 1.3.0 =
+* Updated : Various pages and section CSS changes
+
+= 1.2.8 =
+* Fixed : feature promo button fix on responsive
+
+= 1.2.7 =
+* Fixed : WooCommerce onsale background color
+
+= 1.2.6 =
+* Fixed : WooCommerce onsale fixed
+
+= 1.2.5 =
+* Fixed : WooCommerce Taxonomy query
+
+= 1.2.4 =
+* Fixed : Related Post Design
+* Fixed : Active zone increase on special menu
+
+= 1.2.3 =
+* Fixed : Responsive Menu overflow
+
+= 1.2.2 =
+* Fixed : Minor issues
+
+= 1.2.1 =
+* Fixed : Tabs Widget
+
+= 1.2.0 =
+* Added : Editor Style
+* Added : Missing tags
+* Fixed : Minor issues
+
+= 1.1.3 =
+* Added : news tag and demo http://demo.acmethemes.com/online-shop/home-1/
+* Fixed : Special Menu Hover on Desktop
+* Fixed : Minor issues
+
+= 1.1.2 =
+* Fixed : Mobile Menu
+* Fixed : Minor issues
+
+= 1.1.1 =
+* Fixed : Minor issues
+
+= 1.1.0 =
+* Fixed : Various escaping and sanitization improvement
+* Fixed : Missing license
+
+= 1.0.0 =
+* Added : Various customizer options
+* Added : Various frontend section
+* Added : Widgets
+
+= 0.0.1 =
+* Initial release
