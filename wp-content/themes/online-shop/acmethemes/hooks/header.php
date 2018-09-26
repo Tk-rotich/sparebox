@@ -203,7 +203,7 @@ if ( ! function_exists( 'online_shop_header' ) ) :
 	                            if( 'widget' == $online_shop_top_right_button_options ){
 		                            ?>
                                     <div class="icon-box">
-                                        <a id="at-modal-open" class="my-account at-modal" href="<?php echo esc_url( $online_shop_top_right_button_link );?>">
+                                        <a id="at-modal-open" class="my-account at-modal" href="http://sparebox.co.ke/my-account">
 				                            <?php echo esc_html( $online_shop_top_right_button_title );?>
                                         </a>
                                     </div>
@@ -212,7 +212,7 @@ if ( ! function_exists( 'online_shop_header' ) ) :
 	                            else{
 		                            ?>
                                     <div class="icon-box">
-                                        <a class="my-account" href="<?php echo esc_url( $online_shop_top_right_button_link );?>">
+                                        <a class="my-account" href="http://sparebox.co.ke/my-account">
 				                            <?php echo esc_html( $online_shop_top_right_button_title );?>
                                         </a>
                                     </div>

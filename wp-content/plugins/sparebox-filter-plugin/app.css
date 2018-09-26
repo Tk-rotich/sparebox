@@ -1,0 +1,66 @@
+.sparebox-wrapper {
+    width: 200px;
+    height: 250px;
+    float: left;
+    padding-top: 10px;
+    border: 1px solid #f8f8f8;
+    margin: 0px;
+}
+.sparebox-wrapper select{
+    width: 170px;
+    height: 40px;
+    border: 1px solid #f8f8f8;
+    margin: 0 15px;
+}
+.sparebox-wrapper label{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 5px;
+    color: #BF2026;
+    font-size: 120% ;
+}
+.sparebox-wrapper select[disabled]{
+    background: #f8f8f8;
+}
+.sparebox-wrapper select[disabled]:hover{
+    cursor: not-allowed;
+}
+.sparebox-wrapper a{  
+    background:  #BF2026;
+    padding: 10px 80px;
+    position: relative;
+   left: 7px;
+   color: #fff;
+   top: 30px;
+   display: inline-block;
+}
+.sparebox-wrapper a:hover{
+    background: #000000;
+    color: #fff !important;
+}
+
+.site-main li{
+    list-style: none;
+    display: inline-block;
+    margin: 3px;
+}
+
+/* .content-area ul{
+    list-style: none;
+    display: inline-flex;
+} */
+
+/* .content  ul.products li.product
+.content  ul.products li img
+.content  ul.products li .button */
+/* .content  ul.products li .woocommerce-loop-product__title{
+    padding: .5em 0;
+    margin: 0;
+    font-size: 18px;
+    color: #2d2d2d;
+} */
+/* .content  ul.products li span.woocommerce-Price-amount .amount{
+} */
+
+

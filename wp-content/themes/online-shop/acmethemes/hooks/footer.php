@@ -137,7 +137,7 @@ if ( ! function_exists( 'online_shop_footer' ) ) :
 		                        <?php endif; ?>
                             </span>
                             <span>
-	                            <?php printf( esc_html__( '%1$s by %2$s', 'online-shop' ), 'Online Shop', '<a href="https://www.acmethemes.com/">Acme Themes</a>' ); ?>
+	                            <?php printf( esc_html__( '%1$s by %2$s', 'online-shop' ), 'Online Shop', '<a href="https://www.sparebox.co.ke/">Sparebox</a>' ); ?>
                             </span>
                         </div><!-- .site-info -->
                     </div>

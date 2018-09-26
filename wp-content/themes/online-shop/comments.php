@@ -28,7 +28,7 @@ if ( post_password_required() ) {
 			$comments_number = get_comments_number();
 			if ( '1' === $comments_number ) {
 				/* translators: %s: post title */
-				printf( _x( 'One Thought to &ldquo;%s&rdquo;', 'comments title', 'online-shop' ), get_the_title() );
+				printf( _x( 'One Thought to &ldquo;%s&rdquo;', 'comments title', 'Sparebox' ), get_the_title() );
 			} else {
 				printf(
 				/* translators: 1: number of comments, 2: post title */
@@ -37,7 +37,7 @@ if ( post_password_required() ) {
 						'%1$s Thoughts to &ldquo;%2$s&rdquo;',
 						$comments_number,
 						'comments title',
-						'online-shop'
+						'Sparebox'
 					),
 					number_format_i18n( $comments_number ),
 					get_the_title()
@@ -47,10 +47,10 @@ if ( post_password_required() ) {
         </h2>
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-above" class="navigation comment-navigation">
-			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'online-shop' ); ?></h2>
+			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'Sparebox' ); ?></h2>
 			<div class="nav-links">
-				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'online-shop' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'online-shop' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'Sparebox' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'Sparebox' ) ); ?></div>
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // Check for comment navigation. ?>
@@ -66,17 +66,17 @@ if ( post_password_required() ) {
 		</ol><!-- .comment-list -->
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-below" class="navigation comment-navigation">
-			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'online-shop' ); ?></h2>
+			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'Sparebox' ); ?></h2>
 			<div class="nav-links">
-				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'online-shop' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'online-shop' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'Sparebox' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'Sparebox' ) ); ?></div>
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-below -->
 		<?php endif; /*// Check for comment navigation. */
     endif; // Check for have_comments().
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :?>
-		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'online-shop' ); ?></p>
+		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'Sparebox' ); ?></p>
         <?php
         endif;
 	comment_form();

@@ -15,4 +15,4 @@ get_header();
  */
 do_action( 'online_shop_action_front_page' );
 
-get_footer();
+// get_footer();

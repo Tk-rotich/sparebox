@@ -1,9 +1,9 @@
 /*
 Theme Name: Online Shop
-Theme URI: https://www.acmethemes.com/themes/online-shop
+Theme URI: https://www.acmethemes.com
 Author: acmethemes
 Author URI: https://www.acmethemes.com/
-Description: Online Shop is a powerful, dynamic and highly customized WordPress multipurpose e-commerce theme. Online shop comes with the broad array of features, highly customized options, and advanced custom widgets to create any kinds of online eCommerce sites.  The theme has limitless possibilities to create your online store unique and beautiful. Whether you are creating or redesigning fashion store, sports store, men - women or children store, jewelry store, kitchen or food store, toys store, digital product store, affiliate store or all in one store, the theme will fit any online store you have.  This theme is fully compatible with popular plugin Woo Commerce and added custom widgets. This theme comes with advanced header options, footer options, sidebar options, copyright options, advanced slider options, featured category post, featured post page. In addition, this theme has sticky sidebar options, single post options, WooCommerce page options, sticky menu options, special menu options, advanced logo options, advertisement options and many more. Use this theme for your e-commerce website, you will feel the best ever experience. Demo: http://demo.acmethemes.com/online-shop Support: https://www.acmethemes.com/supports/
+Description: Online Shop is a powerful, dynamic and highly customized WordPress multipurpose e-commerce theme. Online shop comes with the broad array of features, highly customized options, and advanced custom widgets to create any kinds of online eCommerce sites.  The theme has limitless possibilities to create your online store unique and beautiful. Whether you are creating or redesigning fashion store, sports store, men - women or children store, jewelry store, kitchen or food store, toys store, digital product store, affiliate store or all in one store, the theme will fit any online store you have.  This theme is fully compatible with popular plugin Woo Commerce and added custom widgets. This theme comes with advanced header options, footer options, sidebar options, copyright options, advanced slider options, featured category post, featured post page. In addition, this theme has sticky sidebar options, single post options, WooCommerce page options, sticky menu options, special menu options, advanced logo options, advertisement options and many more. Use this theme for your e-commerce website, you will feel the best ever experience. Support: https://www.acmethemes.com/supports/
 Version: 1.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1105,7 +1105,7 @@ a.my-account:hover{
 
 /*MENU*/
 .header-wrapper {
-	padding: 20px 0;
+	padding: 5px 0;
 }
 .slicknav_nav,
 .responsive-slick-menu{
@@ -1944,7 +1944,7 @@ a.my-account:hover{
 	padding-top: 0;
 }
 .secondary-sidebar .widget-area.sidebar{
-	padding: 15px;
+	padding: 0px;
 }
 .secondary-sidebar .widget-area.sidebar .at-title-action-wrapper{
 	padding-top:5px;
@@ -3338,6 +3338,8 @@ body.modal-open{
 .widget_online_shop_about{
 	margin-top: 25px;
 }
+
+
 .widget_online_shop_wc_products .woocommerce.column,
 .widget_online_shop_wc_products .woocommerce.acme-slick-carausel .slick-list,
 .widget_online_shop_wc_cats_tabs .woocommerce.acme-slick-carausel .slick-list {
@@ -3437,3 +3439,8 @@ body.modal-open{
 		display: none;
 	}
 }
+
+#map {
+	height: 400px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+   }

@@ -1,0 +1,40 @@
+.sparebox-wrapper {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding-top: 10px;
+    border: 1px solid #f8f8f8;
+    margin: 0 25px;
+}
+.sparebox-wrapper select{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #f8f8f8;
+    margin: 0 15px;
+}
+.sparebox-wrapper label{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 5px;
+    color: #BF2026;
+    font-size: 120% ;
+}
+.sparebox-wrapper select[disabled]{
+    background: #f8f8f8;
+}
+.sparebox-wrapper select[disabled]:hover{
+    cursor: not-allowed;
+}
+.sparebox-wrapper a{  
+    background:  #BF2026;
+    padding: 10px 100px;
+    position: relative;
+   left: 7px;
+   color: #fff;
+   top: 30px;
+}
+.sparebox-wrapper a:hover{
+    background: #000000;
+    color: #fff !important;
+}

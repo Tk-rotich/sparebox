@@ -1,0 +1,328 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-22 09:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ymm-search.php:146
+msgid "Vehicle Fitment"
+msgstr ""
+
+#: ymm-search.php:189 ymm-search.php:189
+msgctxt "Admin menu"
+msgid "YMM Search"
+msgstr ""
+
+#: Controller/Product.php:118
+msgid "for"
+msgstr ""
+
+#: etc/config.php:16
+msgid "-- Make --"
+msgstr ""
+
+#: etc/config.php:17
+msgid "-- Model --"
+msgstr ""
+
+#: etc/config.php:18
+msgid "-- Year --"
+msgstr ""
+
+#: etc/config.php:31
+msgid "-- select category --"
+msgstr ""
+
+#: Setup/Install.php:19
+msgid ""
+"YMM requires WooCommerce to run. Please install WooCommerce and activate."
+msgstr ""
+
+#: Setup/Install.php:23
+#, php-format
+msgid "WooCommerce %s or higher is required (You are running %s)"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:13
+msgid ""
+"Year Make Model horizontal search or filter box for WooCommerce products."
+msgstr ""
+
+#: Widget/HorizontalSelector.php:16
+msgid "YMM horizontal search"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:27 Widget/Selector.php:27
+msgid "Search by Vehicle"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:32 Widget/Selector.php:32
+msgid "Filter by Vehicle"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:41 Widget/Selector.php:45
+msgid "Search Box Title"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:45 Widget/Selector.php:49
+msgid "Filter Box Title"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:50 Widget/Selector.php:54
+msgid "Filter products on category page"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:54 Widget/Selector.php:58
+msgid "Enable Garage feature"
+msgstr ""
+
+#: Widget/HorizontalSelector.php:58 Widget/Selector.php:62
+msgid "Enable \"Remove from Garage\" link"
+msgstr ""
+
+#: Widget/Selector.php:13
+msgid "Year Make Model search box for WooCommerce products."
+msgstr ""
+
+#: Widget/Selector.php:16
+msgctxt "Wgdet title in admin panel"
+msgid "YMM Search"
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:29
+msgid "Please select a .csv file and then click the Import button"
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:34
+#, php-format
+msgid "Invalid file type \"%s\". Please upload a .csv file."
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:49
+#, php-format
+msgid "The file \"%s\" is empty"
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:57
+#, php-format
+msgid ""
+"The first row in the .csv file must contain correct column names. And the "
+"columns should have special order: \"%s\""
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:87
+#, php-format
+msgid ""
+"Row #%d was not imported. The \"product_sku\" field should not be empty."
+msgstr ""
+
+#: Model/Db/CsvImportHandler.php:92
+#, php-format
+msgid ""
+"Row #%d was not imported. The product with SKU or ID \"%s\" does not exist."
+msgstr ""
+
+#: Controller/Adminhtml/Ymm/Selector.php:39
+msgid "Ymm CSV file has been imported."
+msgstr ""
+
+#: Controller/Adminhtml/Ymm/Selector.php:41
+msgid "Ymm CSV file has not been imported."
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:15
+#: view/frontend/templates/selector.php:12
+msgid "From your garage for this category"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:15
+#: view/frontend/templates/horizontal_selector.php:99
+#: view/frontend/templates/selector.php:12
+#: view/frontend/templates/selector.php:93
+msgid "Your Garage"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:17
+#: view/frontend/templates/selector.php:14
+msgid "-- select vehicle --"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:23
+#: view/frontend/templates/selector.php:21
+msgid "Remove from garage"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:49
+#: view/frontend/templates/selector.php:43
+msgid "Or search"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:59
+#: view/frontend/templates/horizontal_selector.php:59
+#: view/frontend/templates/horizontal_selector.php:68
+#: view/frontend/templates/horizontal_selector.php:68
+#: view/frontend/templates/horizontal_selector.php:100
+#: view/frontend/templates/selector.php:53
+#: view/frontend/templates/selector.php:53
+#: view/frontend/templates/selector.php:63
+#: view/frontend/templates/selector.php:63
+#: view/frontend/templates/selector.php:94
+#: Block/Adminhtml/Product/Edit/Restriction.php:86
+msgid "Search"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:68
+#: view/frontend/templates/horizontal_selector.php:68
+#: view/frontend/templates/selector.php:63
+#: view/frontend/templates/selector.php:63
+msgid "Filter"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:71
+#: view/frontend/templates/selector.php:66
+msgid "Search All"
+msgstr ""
+
+#: view/frontend/templates/horizontal_selector.php:73
+#: view/frontend/templates/selector.php:68
+msgid "Clear filter"
+msgstr ""
+
+#: view/frontend/templates/selector.php:7
+msgid "No vehicles for this category"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:27
+msgid ""
+"Correct format is four columns in a row (three commas). Then a new line. "
+"Example:<br> Daihatsu, Altis, 1990, 2005<br>Toyota, Caldina, 1997, 2008 <br>"
+"Toyota, Camry, 1993, 2000<br><br>All models of one make:<br>Daihatsu, , 0, "
+"0<br><br>All makes and models:<br> , , 0, 0"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:48
+msgid "YMM"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:72
+msgid "Restriction"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:80
+msgid "Click here to fill the field with a sample restriction"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:85
+msgid "... search here for makes in the restrictions of other products"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:88
+msgid "No matches found."
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:92
+msgid "Add to restriction"
+msgstr ""
+
+#: Block/Adminhtml/Product/Edit/Restriction.php:128
+msgid "YMM restriction was not saved."
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:9
+msgid "Manage Year Make Model search"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:22
+msgid "Import YMM Data"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:27
+msgid "delete existing values"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:29
+msgid "Import CSV"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:32
+msgid "Export YMM Data"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:35
+msgid "Export CSV"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:35
+msgid "Export sample CSV"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:39
+msgid "Configuration"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:43
+msgid "Display vehicle fitment on front-end product view page"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:46
+msgid "Display category drop-downs after selecting make, model"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:49
+msgid "Display search text field after selecting make, model"
+msgstr ""
+
+#: view/adminhtml/templates/ymm/selector.php:51
+msgid "Save Configuration"
+msgstr ""
+
+#: view/frontend/templates/product/view/tabs/restriction.php:9
+msgid "Make"
+msgstr ""
+
+#: view/frontend/templates/product/view/tabs/restriction.php:10
+msgid "Model"
+msgstr ""
+
+#: view/frontend/templates/product/view/tabs/restriction.php:11
+msgid "Year"
+msgstr ""
+
+#: view/frontend/templates/product/view/tabs/restriction.php:22
+msgid "SHOW MORE"
+msgstr ""
+
+#: view/frontend/templates/product/view/tabs/restriction.php:23
+msgid "SHOW LESS"
+msgstr ""
+
+#. Name of the plugin
+msgid "YMM Search"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Customer can search for replacment parts by vehicle make, model and year."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://hottons.com/woocommerce/ymm-wp.html"
+msgstr ""
+
+#. Author of the plugin
+msgid "Pektsekye"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://hottons.com"
+msgstr ""

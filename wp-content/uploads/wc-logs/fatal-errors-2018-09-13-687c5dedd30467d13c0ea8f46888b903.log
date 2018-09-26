@@ -1,0 +1,8 @@
+2018-09-13T04:54:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\Projects\sparebox\sparebox\wp-content\themes\online-shop\new-search.php:32
+Stack trace:
+#0 C:\xampp\htdocs\Projects\sparebox\sparebox\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\Projects\sparebox\sparebox\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects\sparebox\sparebox\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+

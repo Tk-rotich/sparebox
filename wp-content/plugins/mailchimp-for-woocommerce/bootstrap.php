@@ -18,6 +18,7 @@ spl_autoload_register(function($class) {
         'MailChimp_WooCommerce_Deactivator' => 'includes/class-mailchimp-woocommerce-deactivator.php',
         'MailChimp_WooCommerce_Activator' => 'includes/class-mailchimp-woocommerce-activator.php',
         'MailChimp_WooCommerce' => 'includes/class-mailchimp-woocommerce.php',
+        'MailChimp_WooCommerce_Privacy' => 'includes/class-mailchimp-woocommerce-privacy.php',
 
         // includes/api/assets
         'MailChimp_WooCommerce_Address' => 'includes/api/assets/class-mailchimp-address.php',
@@ -86,7 +87,7 @@ function mailchimp_environment_variables() {
     return (object) array(
         'repo' => 'master',
         'environment' => 'production',
-        'version' => '2.1.7',
+        'version' => '2.1.6',
         'php_version' => phpversion(),
         'wp_version' => (empty($wp_version) ? 'Unknown' : $wp_version),
         'wc_version' => class_exists('WC') ? WC()->version : null,
@@ -589,6 +590,30 @@ function mailchimp_running_in_console() {
  */
 function mailchimp_http_worker_is_running() {
     return (bool) get_site_transient('http_worker_lock');
+}
+
+/**
+ * @param $email
+ * @return bool
+ */
+function mailchimp_email_is_privacy_protected($email) {
+    return $email === 'deleted@site.invalid';
+}
+
+/**
+ * @param $email
+ * @return bool
+ */
+function mailchimp_email_is_amazon($email) {
+    return mailchimp_string_contains($email, '@marketplace.amazon.com');
+}
+
+/**
+ * @param $str
+ * @return string
+ */
+function mailchimp_hash_trim_lower($str) {
+    return md5(trim(strtolower($str)));
 }
 
 /**

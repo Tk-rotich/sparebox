@@ -1,0 +1,17 @@
+
+#ymm_product_data p.form-field.ymm_restriction_field {margin-bottom: 15px;}
+#ymm_product_data p.form-field {padding:0 10px 0 10px !important;}
+#ymm_product_data p.form-field label {margin:0;width:auto;}
+#ymm_product_data p.form-field textarea {width:100%;float:none;}
+#ymm_product_data p.form-field input {float:left; height: 28px; margin-right: 8px;}
+#ymm_product_data p.form-field button {float:left !important;}
+
+#ymm_sample,
+#ymm_not_found {padding-left:10px;}
+
+
+.ymm-search-button {float:right !important;}
+.ymm-selector-container {margin-bottom:16px;}
+.ymm-selector-container select.ymm-result-select {float:none; width:100%;margin:0 0 8px 0;}
+select.disabled { border-color:#bbb !important; background:#bbb !important; }
+

@@ -1021,19 +1021,19 @@ $config = array(
     'quick_links'                    => array(
         'theme_url'  => array(
                 'text' => __('Theme Details','online-shop'),
-                'url' => 'https://www.acmethemes.com/themes/online-shop/'
+                'url' => 'https://www.sparebox.co.ke'
         ),
         'demo_url'  => array(
             'text' => __('View Demo','online-shop'),
-            'url' => 'http://www.demo.acmethemes.com/online-shop/'
+            'url' => 'https://www.sparebox.co.ke'
         ),
         'pro_url'  => array(
-            'text' => __('View Pro Version','online-shop'),
-            'url' => 'https://www.acmethemes.com/themes/online-shop-pro/'
+            'text' => __('View Version','online-shop'),
+            'url' => '#'
         ),
         'rate_url'  => array(
             'text' => __('Rate This Theme','online-shop'),
-            'url' => 'https://wordpress.org/support/theme/online-shop/reviews/?filter=5'
+            'url' => 'https://www.sparebox.co.ke'
         ),
     ),
 
@@ -1046,7 +1046,6 @@ $config = array(
     'support'       => __( 'Support', 'online-shop' ),
     'changelog'        => __( 'Changelog', 'online-shop' ),
     'faq'        => __( 'FAQ', 'online-shop' ),
-    'free_pro'         => __( 'Free VS PRO', 'online-shop' ),
     ),
      * The key needs to be ONLY consisted from letters and underscores. If we want to define outside the class a function to render the tab,
      * the will be the name of the function which will be used to render the tab content.
@@ -1058,16 +1057,16 @@ $config = array(
         'support'       => esc_html__( 'Support', 'online-shop' ),
         'changelog'        => esc_html__( 'Changelog', 'online-shop' ),
         'faq'        => esc_html__( 'FAQ', 'online-shop' ),
-        'free_pro'         => esc_html__( 'Free VS PRO', 'online-shop' ),
+        
     ),
 
     /*Getting started tab*/
     'getting_started' => array(
         'first' => array(
             'title' => esc_html__( 'Step 1 : Read full documentation','online-shop' ),
-            'desc' => esc_html__( 'Please check our full documentation for detailed information on how to Setup and Use Online Shop.','online-shop' ),
+            'desc' => esc_html__( 'Please check our full documentation.','online-shop' ),
             'link_title' => esc_html__( 'Documentation','online-shop' ),
-            'link_url' => 'http://www.doc.acmethemes.com/online-shop/',
+            'link_url' => '#',
             'is_button' => false,
             'recommended_actions' => false,
             'is_new_tab' => true
@@ -1123,7 +1122,7 @@ $config = array(
     'recommended_actions'        => array(
         'demo-content' => array(
             'title' => esc_html__( 'Install Demo Setup','online-shop' ),
-            'desc' => sprintf( esc_html__( 'For the demo content installation, install the Acme Demo Setup plugin and other Recommended plugins, download demo content from %1$s here %2$s. Then go to "Acme Demo Setup" and import demo. ', 'online-shop' ), '<a target="_blank" href="http://www.doc.acmethemes.com/online-shop/#DummyData" >','</a>' ),
+            'desc' => sprintf( esc_html__( 'For the demo content installation, install the Acme Demo Setup plugin and other Recommended plugins, download demo content from %1$s here %2$s. Then go to "Acme Demo Setup" and import demo. ', 'online-shop' ), '<a target="_blank" href="#" >','</a>' ),
             'id' => 'acme-demo-setup',
             'check' =>  ( ( function_exists('acme_demo_setup_load_textdomain') )? true : false ),
             'plugin_slug'   => 'acme-demo-setup',
@@ -1154,9 +1153,9 @@ $config = array(
         'first' => array (
             'title' => esc_html__( 'How to Setup Site like Demo','online-shop' ),
             'icon' => 'dashicons dashicons-sos',
-            'desc' => sprintf( esc_html__( 'For the demo content installation, install the Acme Demo Setup plugin and other Recommended plugins, download demo content from %1$s here %2$s. Then go to "Acme Demo Setup" and import demo. ', 'online-shop' ), '<a target="_blank" href="http://www.doc.acmethemes.com/online-shop/#DummyData" >','</a>' ),
+            'desc' => sprintf( esc_html__( 'For the demo content installation, install the Acme Demo Setup plugin and other Recommended plugins, download demo content from %1$s here %2$s. Then go to "Acme Demo Setup" and import demo. ', 'online-shop' ), '<a target="_blank" href="#" >','</a>' ),
             'button_label' => esc_html__( 'Download Demo Content','online-shop' ),
-            'button_link' => esc_url( 'http://www.doc.acmethemes.com/online-shop/#DummyData' ),
+            'button_link' => esc_url( '#' ),
             'is_button' => true,
             'is_new_tab' => true
         ),
@@ -1174,8 +1173,8 @@ $config = array(
             'title' => esc_html__( 'Hide Online Shop by Acme Themes from footer ? ','online-shop' ),
             'icon' => 'dashicons dashicons-sos',
             'desc' => esc_html__( 'Please visit the blog post to know more about it.','online-shop' ),
-            'button_label' => esc_html__( 'Hide credit text on Footer','online-shop' ),
-            'button_link' => esc_url( 'https://www.acmethemes.com/blog/2017/01/remove-powered-by-text-on-footer/' ),
+            'button_label' => esc_html__( 'Hide Footer','online-shop' ),
+            'button_link' => esc_url( '#' ),
             'is_button' => true,
             'is_new_tab' => true
         ),
@@ -1185,7 +1184,7 @@ $config = array(
             'icon' => 'dashicons dashicons-sos',
             'desc' => esc_html__( 'Where i can get the recent updates of theme related updates ? ','online-shop' ),
             'button_label' => esc_html__( 'Visit our site blog page','online-shop' ),
-            'button_link' => esc_url( 'https://www.acmethemes.com/blog/' ),
+            'button_link' => esc_url( '#' ),
             'is_button' => true,
             'is_new_tab' => true
         ),
@@ -1197,7 +1196,7 @@ $config = array(
             'icon' => 'dashicons dashicons-sos',
             'desc' => esc_html__( 'Got theme support question or found bug? Best place to ask your query is our dedicated Support forum.','online-shop' ),
             'button_label' => esc_html__( 'Contact Support','online-shop' ),
-            'button_link' => esc_url( 'https://www.acmethemes.com/supports/forum/online-shop/' ),
+            'button_link' => esc_url( '#' ),
             'is_button' => true,
             'is_new_tab' => true
         ),
@@ -1206,7 +1205,7 @@ $config = array(
             'icon' => 'dashicons dashicons-book-alt',
             'desc' => esc_html__( 'Please check our full documentation for detailed information on how to Setup and Use Online Shop.','online-shop' ),
             'button_label' => esc_html__( 'Read full documentation','online-shop' ),
-            'button_link' => 'http://www.doc.acmethemes.com/online-shop/',
+            'button_link' => '#',
             'is_button' => false,
             'is_new_tab' => true
         ),
@@ -1215,7 +1214,7 @@ $config = array(
             'icon' => 'dashicons dashicons-screenoptions',
             'desc' => esc_html__( 'Upgrade to PRO version for more exciting features and Priority Support.','online-shop' ),
             'button_label' => esc_html__( 'View Pro Version','online-shop' ),
-            'button_link' => 'https://www.acmethemes.com/themes/online-shop-pro/',
+            'button_link' => '#',
             'is_button' => true,
             'is_new_tab' => true
         ),
@@ -1233,7 +1232,7 @@ $config = array(
             'icon' => 'dashicons dashicons-hammer',
             'desc' => esc_html__( 'Needed any customization for the theme, you can request from here.','online-shop' ),
             'button_label' => esc_html__( 'Customization Request','online-shop' ),
-            'button_link' => 'https://www.acmethemes.com/customization-request/',
+            'button_link' => '#',
             'is_button' => false,
             'is_new_tab' => true
         )
